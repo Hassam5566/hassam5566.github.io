@@ -1,0 +1,116 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: #F9FAFB;
+}
+
+/* NAVBAR */
+nav {
+    background: #1E3A8A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 70px;
+    color: white;
+    background: linear-gradient(135deg, #1E3A8A, #06B6D4);
+    animation: fadeIn 1.5s ease;
+}
+
+/* CONTAINER */
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* FORM */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* BUTTON */
+button {
+    background: #DC2626;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #b91c1c;
+}
+
+/* STATUS */
+.status {
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.good {
+    background: #16A34A;
+}
+
+.warning {
+    background: #DC2626;
+}
+
+/* SUCCESS MESSAGE */
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background: #1E3A8A;
+    color: white;
+    padding: 15px;
+}
