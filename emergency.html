@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Emergency Assistance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>AI Emergency Care</h1>
+</nav>
+
+<!-- MAIN CONTAINER -->
+<div class="container">
+
+    <!-- HERO / TITLE -->
+    <div class="card">
+        <h2>🚨 AI Emergency Assistance</h2>
+        <p>
+            Describe your symptoms below and our AI system will analyse your condition
+            and provide immediate medical guidance.
+        </p>
+    </div>
+
+    <!-- INPUT SECTION -->
+    <div class="card">
+        <h3>🩺 Symptom Checker</h3>
+
+        <input type="text" id="userInput" placeholder="Enter symptoms (e.g. chest pain, fever)">
+        <br><br>
+
+        <button onclick="sendMessage()">Analyse</button>
+
+        <div id="response" style="margin-top:15px; font-weight:bold;"></div>
+    </div>
+
+    <!-- QUICK ACTIONS -->
+    <div class="card">
+        <h3>⚡ Emergency Actions</h3>
+
+        <button onclick="activateEmergency()">🚨 Call Emergency</button>
+        <button onclick="showFirstAid()">🧰 First Aid Tips</button>
+
+        <div id="firstAid" style="margin-top:15px;"></div>
+    </div>
+
+    <!-- STATUS DISPLAY -->
+    <div class="card">
+        <h3>📊 AI Risk Assessment</h3>
+
+        <div id="riskBox" class="status good">
+            Status: Waiting for input...
+        </div>
+    </div>
+
+</div>
+
+<footer>© 2026 AI Emergency Care</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
