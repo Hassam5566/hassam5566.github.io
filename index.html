@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Emergency Care</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVIGATION BAR ================= -->
+<nav>
+    <h1>AI Emergency Care</h1>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About AI</a></li>
+        <li><a href="emergency.html">Emergency</a></li>
+        <li><a href="monitor.html">Monitoring</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<header class="hero">
+    <h2>Smart Emergency Healthcare Powered by AI</h2>
+
+    <p>
+        Our system uses Artificial Intelligence to analyse symptoms,
+        provide instant medical suggestions, and assist during emergencies.
+    </p>
+
+    <!-- Emergency Button -->
+    <button id="emergencyBtn">🚨 Activate Emergency</button>
+</header>
+
+<!-- ================= INFORMATION SECTION ================= -->
+<section class="info">
+    <h2>Why AI Emergency Care?</h2>
+
+    <p>
+        AI Emergency Care provides fast, reliable and intelligent support
+        for emergency healthcare situations. The system is designed for
+        patients, healthcare providers and first responders.
+    </p>
+
+    <ul>
+        <li>✔ Instant symptom analysis</li>
+        <li>✔ Real-time patient monitoring</li>
+        <li>✔ Emergency alerts & notifications</li>
+        <li>✔ AI chatbot assistance</li>
+    </ul>
+</section>
+
+<!-- ================= FEATURE CARDS ================= -->
+<section class="cards">
+
+    <div class="card">
+        <h3>AI Symptom Checker</h3>
+        <p>
+            Uses intelligent algorithms to analyse symptoms
+            and suggest possible medical conditions.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Live Monitoring</h3>
+        <p>
+            Track vital signs such as heart rate,
+            oxygen levels and blood pressure in real time.
+        </p>
+    </div>
+
+    <div class="card">
+        <h3>Emergency Alerts</h3>
+        <p>
+            Immediate alerts are triggered when critical
+            conditions are detected by the AI system.
+        </p>
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 AI Emergency Care | Designed for Web Technologies Assignment</p>
+</footer>
+
+<!-- ================= JAVASCRIPT ================= -->
+<script src="script.js"></script>
+
+<!-- Extra safety script (ensures button works) -->
+<script>
+    document.getElementById("emergencyBtn").addEventListener("click", function() {
+        alert("🚨 Emergency Activated!\nContacting nearest healthcare services...");
+    });
+</script>
+
+</body>
+</html>
